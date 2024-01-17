@@ -123,3 +123,27 @@ def somma_numeri():
     print("La somma dei due numeri è:", somma)
 
 somma_numeri()
+
+#Esercizio Extra Prof 1.
+
+parola1 = input("Inserisci la prima parola: ")
+parola2 = input("Inserisci la seconda parola: ")
+parola3 = input("Inserisci la terza parola: ")
+
+parola1_maiuscolo = parola1.upper()
+parola2_minuscolo = parola2.lower()
+parola3_maiuscola = parola3.capitalize()
+
+print(parola1_maiuscolo[:3])
+print(parola2_minuscolo[:3])
+print(parola3_maiuscola[:3])
+
+#Esercizio Extra Prof 2.
+
+parola1 = input("Inserisci la prima parola: ")
+parola2 = input("Inserisci la seconda parola: ")
+parola3 = input("Inserisci la terza parola: ")
+
+prodotto_lunghezze = len(parola1) * len(parola2) * len(parola3)
+
+print("Il prodotto delle lunghezze delle parole è", prodotto_lunghezze)
