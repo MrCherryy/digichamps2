@@ -11,7 +11,7 @@ class ContoBancario:
     def depositare (self, importo):
         self.saldo += importo
 
-TestConto = ContoBancario()
+TestConto = ContoBancario(50)
 print ("Saldo di partenza:", TestConto.saldo)
 
 TestConto.prelevare(1000)
