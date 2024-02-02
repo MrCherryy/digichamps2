@@ -6,3 +6,5 @@ link_unici = df['link'].unique()
 print(link_unici)
 link_ripetuti = link_ripetuti[link_ripetuti > 10]
 print(link_ripetuti)
+massimo = df["link"].value_counts().idxmax()
+print(massimo)
