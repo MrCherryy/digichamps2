@@ -4,6 +4,5 @@ link_ripetuti = df['link'].value_counts()
 print(link_ripetuti)
 link_unici = df['link'].unique()
 print(link_unici)
-link_ripetuti = df['link'].value_counts()
-link_ripetuti = link_ripetuti[link_ripetuti > 1]
+link_ripetuti = link_ripetuti[link_ripetuti > 10]
 print(link_ripetuti)
